@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: daniels-cave
+Version: 0.1
+Summary: Daniel, the maniel.
+Home-page: https://github.com/harvestedfinancial/daniels_cave
+Author: Rory Gwozdz
+Author-email: rory@harvestedfinancial.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pip,slack,daniel
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
