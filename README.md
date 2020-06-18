@@ -1,4 +1,4 @@
-# Daniels Cave
+# Daniels
 
 Inside, you'll find Daniel. Daniel is harvested's open source contribution. He's the slack bot we use for all of our monitoring -- you can essentially import him and have him talk to various channels in slack, alerting people he needs to talk with.
 
