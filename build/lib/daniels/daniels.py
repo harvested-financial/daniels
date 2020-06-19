@@ -3,12 +3,13 @@ import slack
 
 
 class Daniel:
-    def __init__(self, emoticon=' :dollar: ', token=os.environ["slack_token"], channel='automatic-reporting'):
+    def __init__(self, emoticon=' :dollar: ', token=None, channel='automatic-reporting'):
         """Create the Daniel."""
-        self.job_name = None
         self.ender = emoticon
         self.starter = emoticon
         self.channel = channel
+        if not token:
+            token = os.environ["slack_token"]
         self.client = slack.WebClient(token=token)
 
     def say(self, msg, channel=None, enders=True):
