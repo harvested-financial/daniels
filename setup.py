@@ -9,7 +9,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     long_description=long_description,
     url="https://github.com/harvested-financial/daniels",
-    version='0.1.7',
+    version='0.1.8',
     author='Rory Gwozdz',
     author_email='rory@harvestedfinancial.com',
     liscense='MIT',
