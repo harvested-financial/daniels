@@ -3,7 +3,7 @@ import slack
 
 
 class Daniel:
-    def __init__(self, emoticon=' :dollar: ', token=None, channel='automatic-reporting'):
+    def __init__(self, channel, emoticon=' :dollar: ', token=None):
         """Create the Daniel."""
         self.ender = emoticon
         self.starter = emoticon
